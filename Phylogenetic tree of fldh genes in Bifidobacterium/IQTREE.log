@@ -1,0 +1,391 @@
+IQ-TREE version 3.1.0 for Linux x86 64-bit built Mar 12 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    admin (AVX512, FMA3, 251 GB RAM)
+Command: /home/stu_1/0_public/iqtree-3.1.0-Linux/bin/iqtree3_intel -s Bifido_fldh.align -m MFP -B 1000 -alrt 1000 -T 8
+Seed:    224087 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Mar 17 21:24:55 2026
+Kernel:  AVX+FMA - 8 threads (24 CPU cores detected)
+
+Reading alignment file Bifido_fldh.align ... Fasta format detected
+Reading fasta file: done in 0.000328172 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000510294 secs using 99.35% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 46 sequences with 448 columns, 381 distinct patterns
+326 parsimony-informative, 2 singleton sites, 120 constant sites
+                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.4489e-05 secs using 98% CPU
+   1  Bifidobacterium_breve_FGZ39I2M1_ctg_gene2               26.79%    passed     54.33%
+   2  Bifidobacterium_breve_FHLJDQ3M5_ctg_gene2               26.79%    passed     54.33%
+   3  Bifidobacterium_breve_FZJJH9M2_ctg_gene2                26.79%    passed     50.97%
+   4  Bifidobacterium_adolescentis_ATCC15703_gene2            26.34%    passed     19.79%
+   5  Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene2         26.34%    passed     17.32%
+   6  Bifidobacterium_adolescentis_FXJKS40M1_ctg_gene2        26.34%    passed     17.32%
+   7  Bifidobacterium_adolescentis_FHNXY34M5_ctg_gene2        26.34%    passed     14.57%
+   8  Bifidobacterium_adolescentis_FXJWS49M26_ctg_gene2       26.34%    passed     28.07%
+   9  Bifidobacterium_bifidum_FGSYC45M3_ctg_gene1             10.94%    passed     78.39%
+  10  Bifidobacterium_bifidum_FHNFQ49M1_ctg_gene1             10.94%    passed     73.50%
+  11  Bifidobacterium_adolescentis_ATCC15703_gene1            10.94%    passed     83.15%
+  12  Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene1         10.94%    passed     83.15%
+  13  Bifidobacterium_adolescentis_FHNXY34M5_ctg_gene1        10.94%    passed     83.15%
+  14  Bifidobacterium_adolescentis_FXJKS40M1_ctg_gene1        10.94%    passed     83.15%
+  15  Bifidobacterium_adolescentis_FXJWS49M26_ctg_gene1       10.94%    passed     85.02%
+  16  Bifidobacterium_bifidum_FGDLZ57M3_ctg_gene1             10.94%    passed     77.19%
+  17  Bifidobacterium_bifidum_FHNXY15M5_ctg_gene1             10.94%    passed     77.19%
+  18  Bifidobacterium_bifidum_JCM1255_gene1                   10.94%    passed     77.19%
+  19  Bifidobacterium_bifidum_JCM1255_gene2                   25.67%    passed     38.27%
+  20  Bifidobacterium_bifidum_FHNXY15M5_ctg_gene2             25.67%    passed     31.21%
+  21  Bifidobacterium_bifidum_FGDLZ57M3_ctg_gene2             25.67%    passed     53.41%
+  22  Bifidobacterium_bifidum_FGSYC45M3_ctg_gene2             25.67%    passed     42.68%
+  23  Bifidobacterium_bifidum_FHNFQ49M1_ctg_gene2             25.67%    passed     41.70%
+  24  Bifidobacterium_longum_subsp_infantis_ATCC15697_gene1   24.55%    passed     99.99%
+  25  Bifidobacterium_longum_JSWX25_6_ctg_gene1               24.55%    passed     99.97%
+  26  Bifidobacterium_longum_HeNJZ8M1_ctg_gene1               24.55%    passed     99.99%
+  27  Bifidobacterium_longum_FBJCP1M11_ctg_gene1              24.55%    passed     99.97%
+  28  Bifidobacterium_longum_FHuNCS6M8_ctg_gene1              24.55%    passed     99.97%
+  29  Bifidobacterium_longum_C11-A10-B_ctg_gene1              24.55%    passed    100.00%
+  30  Bifidobacterium_longum_FBJ15M2_ctg_gene1                24.55%    passed    100.00%
+  31  Bifidobacterium_longum_FJSWX38M1_ctg_gene1              24.55%    passed    100.00%
+  32  Bifidobacterium_longum_FJSWX9M2_ctg_gene1               24.55%    passed    100.00%
+  33  Bifidobacterium_longum_subsp_longum_JCM1217_gene1       24.55%    passed    100.00%
+  34  Bifidobacterium_breve_FZJJH9M2_ctg_gene1                24.55%    passed     99.85%
+  35  Bifidobacterium_breve_FGZ39I2M1_ctg_gene1               24.55%    passed     99.97%
+  36  Bifidobacterium_breve_FHLJDQ3M5_ctg_gene1               24.55%    passed     99.97%
+  37  Bifidobacterium_breve_FJSWX38M7_ctg_gene1               24.55%    passed     99.77%
+  38  Bifidobacterium_adolescentis_ATCC15703_gene3            26.56%    passed     94.11%
+  39  Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene3         26.56%    passed     94.11%
+  40  Bifidobacterium_adolescentis_FHNXY34M5_ctg_gene3        26.56%    passed     94.11%
+  41  Bifidobacterium_adolescentis_FXJWS49M26_ctg_gene3       26.56%    passed     94.11%
+  42  Bifidobacterium_adolescentis_FXJKS40M1_ctg_gene3        26.56%    passed     95.04%
+  43  Bifidobacterium_animalis_ZJHZD20M6_T76_ctg_gene1        25.22%    passed     81.85%
+  44  Bifidobacterium_animalis_FFJNDD7M3_T73_ctg_gene1        25.22%    passed     91.75%
+  45  Bifidobacterium_animalis_FSDHZD8M6_T72_ctg_gene1        25.22%    passed     91.75%
+  46  Bifidobacterium_animalis_SC-YA-1-M1_ctg_gene1           25.22%    passed     87.37%
+****  TOTAL                                                   22.33%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Bifidobacterium_breve_FHLJDQ3M5_ctg_gene2 is identical to Bifidobacterium_breve_FGZ39I2M1_ctg_gene2 but kept for subsequent analysis
+NOTE: Bifidobacterium_adolescentis_FXJKS40M1_ctg_gene2 is identical to Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene2 but kept for subsequent analysis
+NOTE: Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene1 is identical to Bifidobacterium_adolescentis_ATCC15703_gene1 but kept for subsequent analysis
+NOTE: Bifidobacterium_bifidum_FHNXY15M5_ctg_gene1 is identical to Bifidobacterium_bifidum_FGDLZ57M3_ctg_gene1 but kept for subsequent analysis
+NOTE: Bifidobacterium_longum_FJSWX38M1_ctg_gene1 is identical to Bifidobacterium_longum_FBJ15M2_ctg_gene1 but kept for subsequent analysis
+NOTE: Bifidobacterium_breve_FHLJDQ3M5_ctg_gene1 is identical to Bifidobacterium_breve_FGZ39I2M1_ctg_gene1 but kept for subsequent analysis
+NOTE: Bifidobacterium_adolescentis_FGSZY8M4_ctg_gene3 is identical to Bifidobacterium_adolescentis_ATCC15703_gene3 but kept for subsequent analysis
+NOTE: Bifidobacterium_animalis_FSDHZD8M6_T72_ctg_gene1 is identical to Bifidobacterium_animalis_FFJNDD7M3_T73_ctg_gene1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00019112 secs using 98.89% CPU
+Identifying sites to remove: done in 0.000356126 secs using 99.68% CPU
+NOTE: 7 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Bifidobacterium_adolescentis_FHNXY34M5_ctg_gene1 (identical to Bifidobacterium_adolescentis_ATCC15703_gene1) is ignored but added at the end
+NOTE: Bifidobacterium_adolescentis_FXJKS40M1_ctg_gene1 (identical to Bifidobacterium_adolescentis_ATCC15703_gene1) is ignored but added at the end
+NOTE: Bifidobacterium_bifidum_JCM1255_gene1 (identical to Bifidobacterium_bifidum_FGDLZ57M3_ctg_gene1) is ignored but added at the end
+NOTE: Bifidobacterium_longum_FJSWX9M2_ctg_gene1 (identical to Bifidobacterium_longum_FBJ15M2_ctg_gene1) is ignored but added at the end
+NOTE: Bifidobacterium_longum_subsp_longum_JCM1217_gene1 (identical to Bifidobacterium_longum_FBJ15M2_ctg_gene1) is ignored but added at the end
+NOTE: Bifidobacterium_adolescentis_FHNXY34M5_ctg_gene3 (identical to Bifidobacterium_adolescentis_ATCC15703_gene3) is ignored but added at the end
+NOTE: Bifidobacterium_adolescentis_FXJWS49M26_ctg_gene3 (identical to Bifidobacterium_adolescentis_ATCC15703_gene3) is ignored but added at the end
+Alignment was printed to Bifido_fldh.align.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Bifido_fldh.align.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -5626.312
+Optimal log-likelihood: -5626.204
+Proportion of invariable sites: 0.065
+Gamma shape alpha: 3.531
+Parameters optimization took 1 rounds (0.033 sec)
+Time for fast ML tree search: 0.405 seconds
+
+NOTE: ModelFinder requires 25 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 448 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            5675.240     75  11500.480    11531.125    11808.339
+  2  LG+I          5638.903     76  11429.805    11461.352    11741.770
+  3  LG+G4         5633.965     76  11419.929    11451.477    11731.894
+  4  LG+I+G4       5626.173     77  11406.347    11438.812    11722.416
+  5  LG+R2         5634.409     77  11422.818    11455.283    11738.887
+  6  LG+R3         5632.069     79  11422.138    11456.485    11746.416
+ 14  LG+I+R2       5626.086     78  11408.172    11441.570    11728.346
+ 15  LG+I+R3       5625.718     80  11411.437    11446.750    11739.820
+ 25  LG+F+G4       5597.600     95  11385.201    11437.019    11775.156
+ 26  LG+F+I+G4     5589.990     96  11371.981    11425.041    11766.041
+ 36  LG+F+I+R2     5589.979     97  11373.958    11428.278    11772.123
+ 47  WAG+G4        5640.122     76  11432.244    11463.791    11744.208
+ 48  WAG+I+G4      5629.327     77  11412.655    11445.120    11728.724
+ 58  WAG+I+R2      5629.273     78  11414.546    11447.944    11734.720
+ 69  WAG+F+G4      5602.713     95  11395.427    11447.245    11785.382
+ 70  WAG+F+I+G4    5592.101     96  11376.202    11429.262    11770.262
+ 80  WAG+F+I+R2    5592.041     97  11378.082    11432.402    11776.247
+ 91  JTT+G4        5652.797     76  11457.593    11489.140    11769.558
+ 92  JTT+I+G4      5644.601     77  11443.202    11475.666    11759.271
+102  JTT+I+R2      5644.772     78  11445.544    11478.942    11765.718
+113  JTT+F+G4      5629.479     95  11448.959    11500.777    11838.914
+114  JTT+F+I+G4    5620.799     96  11433.598    11486.658    11827.659
+124  JTT+F+I+R2    5620.978     97  11435.957    11490.277    11834.122
+135  Q.PFAM+G4     5627.433     76  11406.865    11438.412    11718.829
+136  Q.PFAM+I+G4   5619.756     77  11393.511    11425.976    11709.580
+146  Q.PFAM+I+R2   5619.387     78  11394.773    11428.172    11714.947
+157  Q.PFAM+F+G4   5600.646     95  11391.291    11443.109    11781.246
+158  Q.PFAM+F+I+G4 5593.078     96  11378.156    11431.216    11772.216
+168  Q.PFAM+F+I+R2 5592.803     97  11379.606    11433.926    11777.771
+179  Q.BIRD+G4     5748.614     76  11649.228    11680.775    11961.192
+180  Q.BIRD+I+G4   5742.059     77  11638.119    11670.584    11954.188
+190  Q.BIRD+I+R2   5742.167     78  11640.334    11673.733    11960.508
+201  Q.BIRD+F+G4   5720.497     95  11630.993    11682.812    12020.949
+202  Q.BIRD+F+I+G4 5713.759     96  11619.518    11672.578    12013.578
+212  Q.BIRD+F+I+R2 5714.472     97  11622.945    11677.265    12021.109
+223  Q.MAMMAL+G4   5723.674     76  11599.348    11630.895    11911.312
+224  Q.MAMMAL+I+G4 5716.673     77  11587.347    11619.812    11903.416
+234  Q.MAMMAL+I+R2 5716.199     78  11588.399    11621.797    11908.573
+245  Q.MAMMAL+F+G4 5687.096     95  11564.192    11616.010    11954.147
+246  Q.MAMMAL+F+I+G4 5679.787     96  11551.574    11604.634    11945.635
+256  Q.MAMMAL+F+I+R2 5679.692     97  11553.384    11607.704    11951.549
+267  Q.INSECT+G4   5701.146     76  11554.293    11585.840    11866.257
+268  Q.INSECT+I+G4 5693.580     77  11541.160    11573.625    11857.230
+278  Q.INSECT+I+R2 5692.960     78  11541.919    11575.318    11862.093
+289  Q.INSECT+F+G4 5625.148     95  11440.297    11492.115    11830.252
+290  Q.INSECT+F+I+G4 5617.443     96  11426.887    11479.946    11820.947
+300  Q.INSECT+F+I+R2 5617.355     97  11428.710    11483.030    11826.875
+311  Q.PLANT+G4    5691.914     76  11535.828    11567.375    11847.792
+312  Q.PLANT+I+G4  5684.487     77  11522.975    11555.440    11839.044
+322  Q.PLANT+I+R2  5683.913     78  11523.827    11557.225    11844.000
+333  Q.PLANT+F+G4  5650.079     95  11490.158    11541.976    11880.113
+334  Q.PLANT+F+I+G4 5642.553     96  11477.106    11530.166    11871.166
+344  Q.PLANT+F+I+R2 5642.344     97  11478.689    11533.009    11876.854
+355  Q.YEAST+G4    5717.074     76  11586.148    11617.695    11898.113
+356  Q.YEAST+I+G4  5710.186     77  11574.373    11606.837    11890.442
+366  Q.YEAST+I+R2  5710.349     78  11576.698    11610.097    11896.872
+377  Q.YEAST+F+G4  5615.538     95  11421.076    11472.894    11811.031
+378  Q.YEAST+F+I+G4 5608.629     96  11409.258    11462.318    11803.319
+388  Q.YEAST+F+I+R2 5609.031     97  11412.062    11466.382    11810.227
+399  JTTDCMUT+G4   5655.511     76  11463.023    11494.570    11774.987
+400  JTTDCMUT+I+G4 5647.347     77  11448.695    11481.160    11764.764
+410  JTTDCMUT+I+R2 5647.484     78  11450.968    11484.366    11771.142
+421  JTTDCMUT+F+G4 5631.081     95  11452.163    11503.981    11842.118
+422  JTTDCMUT+F+I+G4 5622.388     96  11436.775    11489.835    11830.836
+432  JTTDCMUT+F+I+R2 5622.641     97  11439.281    11493.601    11837.446
+443  DCMUT+G4      5740.134     76  11632.269    11663.816    11944.233
+444  DCMUT+I+G4    5729.073     77  11612.145    11644.610    11928.215
+454  DCMUT+I+R2    5729.249     78  11614.498    11647.897    11934.672
+465  DCMUT+F+G4    5698.557     95  11587.113    11638.931    11977.069
+466  DCMUT+F+I+G4  5687.549     96  11567.099    11620.158    11961.159
+476  DCMUT+F+I+R2  5687.750     97  11569.500    11623.820    11967.665
+487  VT+G4         5640.230     76  11432.460    11464.007    11744.424
+488  VT+I+G4       5631.519     77  11417.039    11449.504    11733.108
+498  VT+I+R2       5631.435     78  11418.870    11452.268    11739.044
+509  VT+F+G4       5602.465     95  11394.929    11446.747    11784.884
+510  VT+F+I+G4     5593.789     96  11379.578    11432.638    11773.638
+520  VT+F+I+R2     5593.778     97  11381.556    11435.876    11779.721
+531  PMB+G4        5667.755     76  11487.510    11519.057    11799.474
+532  PMB+I+G4      5659.851     77  11473.701    11506.166    11789.770
+542  PMB+I+R2      5659.629     78  11475.257    11508.656    11795.431
+553  PMB+F+G4      5634.505     95  11459.011    11510.829    11848.966
+554  PMB+F+I+G4    5626.439     96  11444.879    11497.938    11838.939
+564  PMB+F+I+R2    5626.234     97  11446.467    11500.787    11844.632
+575  BLOSUM62+G4   5662.703     76  11477.406    11508.953    11789.370
+576  BLOSUM62+I+G4 5654.988     77  11463.976    11496.441    11780.045
+586  BLOSUM62+I+R2 5654.871     78  11465.742    11499.140    11785.916
+597  BLOSUM62+F+G4 5628.598     95  11447.197    11499.015    11837.152
+598  BLOSUM62+F+I+G4 5621.034     96  11434.067    11487.127    11828.128
+608  BLOSUM62+F+I+R2 5620.986     97  11435.971    11490.291    11834.136
+619  DAYHOFF+G4    5740.183     76  11632.365    11663.913    11944.330
+620  DAYHOFF+I+G4  5729.102     77  11612.203    11644.668    11928.272
+630  DAYHOFF+I+R2  5729.292     78  11614.583    11647.982    11934.757
+641  DAYHOFF+F+G4  5698.653     95  11587.306    11639.125    11977.262
+642  DAYHOFF+F+I+G4 5687.626     96  11567.252    11620.312    11961.312
+652  DAYHOFF+F+I+R2 5687.835     97  11569.670    11623.990    11967.835
+663  MTREV+G4      6008.196     76  12168.391    12199.938    12480.355
+664  MTREV+I+G4    6002.150     77  12158.300    12190.765    12474.369
+674  MTREV+I+R2    6000.717     78  12157.433    12190.832    12477.607
+685  MTREV+F+G4    5715.028     95  11620.057    11671.875    12010.012
+686  MTREV+F+I+G4  5707.573     96  11607.145    11660.205    12001.205
+696  MTREV+F+I+R2  5706.332     97  11606.664    11660.984    12004.829
+707  MTART+G4      6128.366     76  12408.731    12440.278    12720.696
+708  MTART+I+G4    6123.349     77  12400.697    12433.162    12716.766
+718  MTART+I+R2    6123.921     78  12403.842    12437.240    12724.016
+729  MTART+F+G4    5828.767     95  11847.534    11899.353    12237.490
+730  MTART+F+I+G4  5823.747     96  11839.493    11892.553    12233.554
+740  MTART+F+I+R2  5824.242     97  11842.483    11896.803    12240.648
+751  MTZOA+G4      5962.036     76  12076.073    12107.620    12388.037
+752  MTZOA+I+G4    5957.570     77  12069.140    12101.605    12385.209
+762  MTZOA+I+R2    5955.543     78  12067.086    12100.485    12387.260
+773  MTZOA+F+G4    5744.348     95  11678.697    11730.515    12068.652
+774  MTZOA+F+I+G4  5739.146     96  11670.291    11723.351    12064.351
+784  MTZOA+F+I+R2  5739.473     97  11672.947    11727.267    12071.112
+795  MTMET+G4      6071.986     76  12295.973    12327.520    12607.937
+796  MTMET+I+G4    6067.586     77  12289.172    12321.636    12605.241
+806  MTMET+I+R2    6066.812     78  12289.623    12323.022    12609.797
+817  MTMET+F+G4    5720.897     95  11631.795    11683.613    12021.750
+818  MTMET+F+I+G4  5715.183     96  11622.365    11675.425    12016.426
+828  MTMET+F+I+R2  5716.003     97  11626.005    11680.325    12024.170
+839  MTVER+G4      6070.328     76  12292.656    12324.203    12604.620
+840  MTVER+I+G4    6065.073     77  12284.147    12316.611    12600.216
+850  MTVER+I+R2    6066.673     78  12289.347    12322.745    12609.520
+861  MTVER+F+G4    5769.793     95  11729.586    11781.404    12119.541
+862  MTVER+F+I+G4  5761.787     96  11715.574    11768.634    12109.634
+872  MTVER+F+I+R2  5762.184     97  11718.368    11772.688    12116.533
+883  MTINV+G4      6136.108     76  12424.216    12455.763    12736.180
+884  MTINV+I+G4    6131.617     77  12417.233    12449.698    12733.302
+894  MTINV+I+R2    6130.233     78  12416.465    12449.864    12736.639
+905  MTINV+F+G4    5686.716     95  11563.432    11615.250    11953.387
+906  MTINV+F+I+G4  5680.968     96  11553.935    11606.995    11947.995
+916  MTINV+F+I+R2  5681.273     97  11556.546    11610.866    11954.710
+927  MTMAM+G4      6143.519     76  12439.037    12470.584    12751.001
+928  MTMAM+I+G4    6137.062     77  12428.125    12460.590    12744.194
+938  MTMAM+I+R2    6137.975     78  12431.949    12465.348    12752.123
+949  MTMAM+F+G4    5849.880     95  11889.760    11941.578    12279.715
+950  MTMAM+F+I+G4  5842.109     96  11876.218    11929.277    12270.278
+960  MTMAM+F+I+R2  5844.781     97  11883.561    11937.881    12281.726
+971  FLAVI+G4      5851.482     76  11854.964    11886.511    12166.928
+972  FLAVI+I+G4    5845.708     77  11845.415    11877.880    12161.484
+982  FLAVI+I+R2    5844.607     78  11845.215    11878.613    12165.389
+993  FLAVI+F+G4    5796.993     95  11783.987    11835.805    12173.942
+994  FLAVI+F+I+G4  5790.158     96  11772.316    11825.376    12166.376
+1004  FLAVI+F+I+R2  5790.239     97  11774.479    11828.799    12172.644
+1015  HIVB+G4       5757.754     76  11667.508    11699.055    11979.472
+1016  HIVB+I+G4     5749.838     77  11653.676    11686.141    11969.745
+1026  HIVB+I+R2     5747.806     78  11651.612    11685.010    11971.786
+1037  HIVB+F+G4     5715.802     95  11621.605    11673.423    12011.560
+1038  HIVB+F+I+G4   5708.141     96  11608.281    11661.341    12002.342
+1048  HIVB+F+I+R2   5707.597     97  11609.195    11663.515    12007.360
+1059  HIVW+G4       5984.202     76  12120.405    12151.952    12432.369
+1060  HIVW+I+G4     5976.786     77  12107.571    12140.036    12423.640
+1070  HIVW+I+R2     5977.581     78  12111.162    12144.560    12431.336
+1081  HIVW+F+G4     5835.375     95  11860.750    11912.568    12250.705
+1082  HIVW+F+I+G4   5826.532     96  11845.064    11898.124    12239.124
+1092  HIVW+F+I+R2   5826.288     97  11846.575    11900.895    12244.740
+1103  FLU+G4        5776.291     76  11704.581    11736.128    12016.546
+1104  FLU+I+G4      5767.736     77  11689.472    11721.937    12005.541
+1114  FLU+I+R2      5766.416     78  11688.833    11722.231    12009.007
+1125  FLU+F+G4      5688.326     95  11566.653    11618.471    11956.608
+1126  FLU+F+I+G4    5679.235     96  11550.470    11603.530    11944.530
+1136  FLU+F+I+R2    5678.599     97  11551.199    11605.519    11949.364
+1147  RTREV+G4      5699.718     76  11551.436    11582.983    11863.400
+1148  RTREV+I+G4    5691.633     77  11537.266    11569.731    11853.335
+1158  RTREV+I+R2    5690.863     78  11537.725    11571.124    11857.899
+1169  RTREV+F+G4    5617.411     95  11424.822    11476.640    11814.777
+1170  RTREV+F+I+G4  5610.270     96  11412.539    11465.599    11806.599
+1180  RTREV+F+I+R2  5610.125     97  11414.251    11468.571    11812.416
+1191  CPREV+G4      5660.252     76  11472.505    11504.052    11784.469
+1192  CPREV+I+G4    5652.032     77  11458.063    11490.528    11774.132
+1202  CPREV+I+R2    5651.861     78  11459.721    11493.120    11779.895
+1213  CPREV+F+G4    5607.702     95  11405.404    11457.223    11795.360
+1214  CPREV+F+I+G4  5599.860     96  11391.720    11444.780    11785.781
+1224  CPREV+F+I+R2  5600.329     97  11394.659    11448.979    11792.824
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG+F+I+G4
+Bayesian Information Criterion:         Q.PFAM+I+G4
+Best-fit model: Q.PFAM+I+G4 chosen according to BIC
+
+All model information printed to Bifido_fldh.align.model.gz
+CPU time for ModelFinder: 144.476 seconds (0h:2m:24s)
+Wall-clock time for ModelFinder: 18.166 seconds (0h:0m:18s)
+Generating 1000 samples for ultrafast bootstrap (seed: 224087)...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 3.864 / Estimate: 0.000, 1.966 / LogL: -5627.437
+Init pinv, alpha: 0.030, 3.864 / Estimate: 0.056, 3.377 / LogL: -5619.769
+Init pinv, alpha: 0.060, 3.864 / Estimate: 0.059, 3.513 / LogL: -5619.747
+Init pinv, alpha: 0.089, 3.864 / Estimate: 0.064, 3.623 / LogL: -5619.783
+Init pinv, alpha: 0.119, 3.864 / Estimate: 0.063, 3.613 / LogL: -5619.779
+Init pinv, alpha: 0.149, 3.864 / Estimate: 0.062, 3.577 / LogL: -5619.764
+Init pinv, alpha: 0.179, 3.864 / Estimate: 0.063, 3.591 / LogL: -5619.772
+Init pinv, alpha: 0.208, 3.864 / Estimate: 0.063, 3.603 / LogL: -5619.780
+Init pinv, alpha: 0.238, 3.864 / Estimate: 0.064, 3.613 / LogL: -5619.786
+Init pinv, alpha: 0.268, 3.864 / Estimate: 0.064, 3.621 / LogL: -5619.794
+Optimal pinv,alpha: 0.059, 3.513 / LogL: -5619.747
+
+Parameters optimization took 2.130 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0212844 secs using 797% CPU
+Computing ML distances took 0.021528 sec (of wall-clock time) 0.170146 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.8868e-05 secs using 97.63% CPU
+Constructing RapidNJ tree: done in 0.000213275 secs using 99.87% CPU
+Computing RapidNJ tree took 0.000329 sec (of wall-clock time) 0.000348 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5623.867
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.552 second
+Computing log-likelihood of 98 initial trees ... 1.253 seconds
+Current best score: -5619.746
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5619.745
+BETTER TREE FOUND at iteration 3: -5619.743
+BETTER TREE FOUND at iteration 4: -5619.743
+UPDATE BEST LOG-LIKELIHOOD: -5619.743
+Iteration 10 / LogL: -5619.744 / Time: 0h:0m:27s
+UPDATE BEST LOG-LIKELIHOOD: -5619.743
+Iteration 20 / LogL: -5619.744 / Time: 0h:0m:32s
+Finish initializing candidate tree set (16)
+Current best tree score: -5619.743 / CPU time: 12.251
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5619.744 / Time: 0h:0m:39s (0h:0m:53s left)
+Iteration 40 / LogL: -5623.636 / Time: 0h:0m:45s (0h:0m:44s left)
+Iteration 50 / LogL: -5619.744 / Time: 0h:0m:51s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -5652.086
+Iteration 60 / LogL: -5619.743 / Time: 0h:0m:57s (0h:0m:29s left)
+UPDATE BEST LOG-LIKELIHOOD: -5619.742
+Iteration 70 / LogL: -5632.739 / Time: 0h:1m:4s (0h:0m:23s left)
+UPDATE BEST LOG-LIKELIHOOD: -5619.742
+Iteration 80 / LogL: -5619.744 / Time: 0h:1m:11s (0h:0m:16s left)
+Iteration 90 / LogL: -5619.744 / Time: 0h:1m:18s (0h:0m:9s left)
+Iteration 100 / LogL: -5619.743 / Time: 0h:1m:25s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -5652.086
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 105 ITERATIONS / Time: 0h:1m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5619.742
+Optimal log-likelihood: -5619.742
+Proportion of invariable sites: 0.059
+Gamma shape alpha: 3.488
+Parameters optimization took 1 rounds (0.033 sec)
+BEST SCORE FOUND : -5619.742
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.100 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Bifido_fldh.align.splits.nex
+Total tree length: 5.957
+
+Total number of iterations: 105
+CPU time used for tree search: 540.656 sec (0h:9m:0s)
+Wall-clock time used for tree search: 68.651 sec (0h:1m:8s)
+Total CPU time used: 704.179 sec (0h:11m:44s)
+Total wall-clock time used: 89.312 sec (0h:1m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file Bifido_fldh.align.splits.nex...
+39 taxa and 227 splits.
+Consensus tree written to Bifido_fldh.align.contree
+Reading input trees file Bifido_fldh.align.contree
+Log-likelihood of consensus tree: -5619.753
+
+Analysis results written to: 
+  IQ-TREE report:                Bifido_fldh.align.iqtree
+  Maximum-likelihood tree:       Bifido_fldh.align.treefile
+  Likelihood distances:          Bifido_fldh.align.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Bifido_fldh.align.splits.nex
+  Consensus tree:                Bifido_fldh.align.contree
+  Screen log file:               Bifido_fldh.align.log
+
+Date and Time: Tue Mar 17 21:26:24 2026
